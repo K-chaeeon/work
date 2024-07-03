@@ -1,5 +1,8 @@
 package ex01;
-//아래는 변수 nnum의 값에 따라 '양수','음수','0'을 출력하는 코드이다. 삼항 연산자를 이용해서 (1)에 알맞은 코들르 넣으시오
+
+import java.util.Scanner;
+
+//아래는 변수 num의 값에 따라 '양수','음수','0'을 출력하는 코드이다. 삼항 연산자를 이용해서 (1)에 알맞은 코들르 넣으시오
 
 public class Ex082 {
 	public static void main(String[] args) {
@@ -7,3 +10,16 @@ public class Ex082 {
 		System.out.println(num > 0? "양수": num == 0? 0:"음수");
 	}
 }
+
+
+
+//	public static void main(String[] args) {
+//		Scanner scan = new Scanner(System.in);
+//		
+//		System.out.println("입력 : ");
+//		int num = scan.nextInt();
+//		
+//		System.out.println("num = "+num);
+//		System.out.println((num>0? "양수입니다":num==0? "0":"음수입니다"));
+
+

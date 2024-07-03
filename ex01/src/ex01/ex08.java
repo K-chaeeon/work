@@ -10,7 +10,11 @@ public class Ex08 {
 	public static void main(String[] args) {
 		int numOFApples = 123;
 		int sizeOFBucket = 10;
+			
 		int numOFBucket = (numOFApples/sizeOFBucket)+(numOFApples%sizeOFBucket == 0? 0:1);
 		System.out.println("필요한 바구니의 수 " + numOFBucket);
 	}
 }
+
+
+//System.out.println((numOFApples%sizeOFBucket > 0? 1:0));

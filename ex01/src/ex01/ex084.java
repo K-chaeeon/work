@@ -8,3 +8,10 @@ public class ex084 {
 		System.out.println("C = " + C);		
 	}
 }
+
+//Math.round() ->반올림함수
+//float C = (float)((F-32) / 1.8);
+//System.out.println("F = " + F);
+//System.out.println( ((int)(C*100))/(double) 100);
+//System.out.println("C = " + Math.round(C));
+
