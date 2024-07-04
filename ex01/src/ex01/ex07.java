@@ -1,6 +1,6 @@
 package ex01;
 
-public class Ex07 {
+public class ex07 {
 	public static void main(String[] args) {
 		//삼항연산자
 // ctrl shift

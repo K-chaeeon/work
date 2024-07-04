@@ -19,10 +19,9 @@ public class ex44 {
 }
 
 
-/*int i=0		
+/* int i=0 
 *for (   ; i < 5; i++) {
  * System.out.println("I love JAVA "+i); 
 	}		
 		System.out.println(i); //i의 사용은 위 중괄호 내에서만 사용됨, 여기까지 i쓰일려면 for이전에 int i=0 으로 지정해줘야함
-	}
-}
+

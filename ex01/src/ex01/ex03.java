@@ -1,6 +1,6 @@
 package ex01;
 
-public class Ex03 {
+public class ex03 {
 	private static void main(String[] args) {
 		int a = 2;
 		

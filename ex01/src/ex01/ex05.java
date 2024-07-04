@@ -1,6 +1,6 @@
 package ex01;
 
-public class Ex05 {
+public class ex05 {
 
 	//ctrl z 뒤로가기
 	//ctrl y 앞으로가기

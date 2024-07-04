@@ -2,7 +2,7 @@ package ex01;
 
 import java.util.Scanner;
 
-public class Ex06 {
+public class ex06 {
 	
 	//숫자를 입력받아
 	//10 미만이면 10미만 출력
