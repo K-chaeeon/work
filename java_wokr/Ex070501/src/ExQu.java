@@ -8,8 +8,9 @@ public class ExQu {
      */
 
     public static void main(String[] args) {
-        int value = (1);
-        System.out.println("value = "+value);
+        int value = 0;
+     //   while()
+     //   System.out.println("value = "+value);
 
 
     }

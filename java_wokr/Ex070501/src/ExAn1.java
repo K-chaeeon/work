@@ -5,18 +5,33 @@ import java.sql.SQLOutput;
 public class ExAn1 {
     public static void main(String[] args) {
 
-        int i = 1;
-        for ( ; i < 7; i++) ;
-        int j = 1;
-        for ( ; j < 7; j++) ;
-        int sum = 
-            if (i + j == 6); {
-                sum =
-                System.out.println(int i);
+           int i = 0;
+        while (i < 7) {
+            i++;
+
+            int j = 0;
+            while (j < 7) {
+                j++;
+
+
+                if (i + j == 6) {
+                    System.out.println(i+","+j);
+
+
+
+
+
+
+        System.out.println();
+
+               }
             }
-
-
+        }
     }
-
-
 }
+
+
+
+
+
+
