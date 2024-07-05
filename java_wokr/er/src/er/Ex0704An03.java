@@ -7,14 +7,25 @@ public class Ex0704An03 {
 
  * 
  */
-	
-		int i = 0;
-		int j = 0; 
-		int sum = i+j;
 		
-		for(int n = )
+		int sum1=1;
+		int sum2=0;
+		int i =1; 
+			while(i>0) { 
+				i++ ;
+					if( i % 2 == 0) {
+				sum1=sum1+i; 
+			}	else {
+				sum2=-(sum2+i);
+			}
+			if(sum1+sum2==100);
+				break;
+			}
+			System.out.println(sum1+sum2);
+		
+		
 		}
 		
 		
 	}
-}
+
