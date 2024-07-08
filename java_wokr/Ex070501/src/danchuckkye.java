@@ -8,4 +8,5 @@ public class danchuckkye {
 //alt insert 파일 생성
 //ctrl E 파일 이동창
 //shift shift 파일찾기
+    //빠른오류찾기 alt enter
 }

@@ -4,13 +4,19 @@ public class ExAn2 {
 
     public static void main(String[] args) {
 
+        for (int i = 0; i < 1; i++) ;
+        int value = (int) Math.random() * 10;
 
-        int value = ();
+        if (value < 1 && value > 6)
+            continue;
 
-        System.out.println("value = " + value);
 
 
+            System.out.println("value = " + value);
+
+
+        }
     }
-}
+
 
         
