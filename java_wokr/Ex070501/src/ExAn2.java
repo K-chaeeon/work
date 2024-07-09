@@ -7,9 +7,8 @@ public class ExAn2 {
         for (int i = 0; i < 1; i++) ;
         int value = (int) Math.random() * 10;
 
-        if (value < 1 && value > 6)
-            continue;
-
+        if (value < 1 && value > 6) {
+//            continue;
 
 
             System.out.println("value = " + value);
@@ -17,6 +16,6 @@ public class ExAn2 {
 
         }
     }
-
+}
 
         

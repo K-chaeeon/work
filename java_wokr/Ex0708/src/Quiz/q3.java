@@ -13,12 +13,32 @@ package Quiz;
 public class q3 {
     public static void main(String[] args) {
 
+        int a = 1;
+        while (a > 0) {
+            a++;
 
+            int b = 1;
+            while (b > 0) {
+                b++;
+
+                int c = 1;
+                while (c > 0) {
+                    c++;
+                }
+
+                if (500 * a + 700 * b + 400 * c == 3500) {
+
+                    System.out.println("a = " + a + ", b = " + b + ", c = " + c);
+
+
+                    System.out.println();
+                }
+
+
+            }
+
+        }
 
 
     }
-
 }
-
-
-
