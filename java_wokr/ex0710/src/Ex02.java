@@ -1,4 +1,4 @@
-package Ex0710.src;
+package ex0710.src;
 
 class B {
     //toSTring 생략 개발자 임의로 적게되면 적은 내용 실행

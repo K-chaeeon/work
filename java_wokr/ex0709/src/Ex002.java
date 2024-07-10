@@ -1,4 +1,4 @@
-package Ex0709.src;//class정의
+package ex0709.src;//class정의
 
 
 class B {

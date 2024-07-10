@@ -1,4 +1,4 @@
-package Ex0710.src;
+package ex0710.src;
 class A {
     public class Ex01 {
 

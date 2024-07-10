@@ -1,4 +1,4 @@
-package Ex071010.src.An;
+package ex0710.src.an;
 
 /*
 프로그램 시분초 출력

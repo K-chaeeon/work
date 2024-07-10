@@ -1,3 +1,5 @@
+package ex0709.src;
+
 class BB {
     int num = 10;
 

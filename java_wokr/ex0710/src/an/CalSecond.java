@@ -1,4 +1,4 @@
-package Ex071010.src.An;
+package ex0710.src.an;
 /*
 초를 입력받음
 int를 넘겨주면 String을 반환하는 함수

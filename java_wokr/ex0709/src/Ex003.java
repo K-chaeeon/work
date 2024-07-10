@@ -1,4 +1,4 @@
-package Ex0709.src;
+package ex0709.src;
 
 class AA{
     int count = 10;

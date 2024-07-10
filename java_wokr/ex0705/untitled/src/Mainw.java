@@ -1,4 +1,4 @@
-package Ex0705.untitled.src;
+package ex0705.untitled.src;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

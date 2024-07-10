@@ -1,4 +1,4 @@
-package Ex0705.src;
+package ex0705.src;
 
 public class danchuckkye {
 

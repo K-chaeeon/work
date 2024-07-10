@@ -1,3 +1,5 @@
+package ex0709.src;
+
 class AAA {
     int count = 10;
 

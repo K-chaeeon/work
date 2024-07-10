@@ -1,4 +1,6 @@
-package Ex0709.src;/*
+package ex0709.src;
+
+/*
 1. 가위 바위 보 게임을 만들어 보자.
 
     사용자로부터 가위 바위 보 중에서 하나를 입력 받는다.
@@ -22,10 +24,6 @@ package Ex0709.src;/*
 
 import java.util.Scanner;
 
-
-class GA {
-
-    public static void doA(String aa) {
 
 //        for (int i = 0; i < 10; i++) ;
 //        int value = (int) (Math.random() * 3);
@@ -71,19 +69,27 @@ class GA {
 
 //        가위-바위/바위-보/보-가위 =>패
 
+class GA {
+
+    public static void doA(String aa) {
+
         for (int i = 0; i < 10; i++) ;
         int value = (int) (Math.random() * 3);
-
-        if ((aa.equals("가위") && value == 1) || ((aa.equals("바위") && value == 2) || ((aa.equals("보")) && value == 0))) {
-            System.out.println("패");
+        {
+            if ((aa.equals("가위") && value == 1) || ((aa.equals("바위") && value == 2) || ((aa.equals("보")) && value == 0)))
+                System.out.println("패");
 //            break;
-        }
-        if ((aa.equals("가위") && value == 2) || ((aa.equals("바위") && value == 0) || ((aa.equals("보")) && value == 1))) {
-            System.out.println("숭");
+
+            if ((aa.equals("가위") && value == 2) || ((aa.equals("바위") && value == 0) || ((aa.equals("보")) && value == 1)))
+                System.out.println("숭");
 //            continue;
+
+            if ((aa.equals("가위") && value == 2) || ((aa.equals("바위") && value == 0) || ((aa.equals("보")) && value == 1)))
+                System.out.println("무승부");
+
         }
     }
-    }
+}
 
 
 //        if (aa.equals("가위")) {
@@ -137,26 +143,26 @@ class GA {
 //}
 
 
-    class And {
+class And {
 
-        public static void doB(String aa) {
+    public static void doB(String aa) {
 
 
-            {
+        {
 
-            }
         }
     }
+}
 
 
-    public class Qu {
+public class Qu {
 
 
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            String aa = scanner.next();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String aa = scanner.next();
 
-            GA.doA(aa);
+        GA.doA(aa);
 
 //        And.doB();
 
@@ -166,9 +172,8 @@ class GA {
 //        2 = "보";
 
 
-        }
     }
-
+}
 
 
 //int result = scanner.nextInt();
