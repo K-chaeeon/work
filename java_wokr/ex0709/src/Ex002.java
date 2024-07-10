@@ -1,4 +1,4 @@
-//class정의
+package Ex0709.src;//class정의
 
 
 class B {
@@ -10,7 +10,7 @@ class B {
     }
 
 }
-public class Ex02 {
+public class Ex002 {
     public static void main(String[] args) {
         int num = 10;
         int num1 = 20;

@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Ex0705.src;
 
 //shift f10 현재 실행된 파일 실행
 //ctrl shift f10 열려있는 파일 실행
