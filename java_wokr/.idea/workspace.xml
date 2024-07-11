@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94a27183-d395-41b9-ab26-cef15573ab5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../home/Quiz/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/Quiz/src/Exh0711/Exh01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/Quiz/src/Exh0711/Exh02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/Ex0711.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/Ex00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/aa/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/aa/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/an/An01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/an/An02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/bb/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/chap_13_early/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/chap_13_early/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/chap_13_early/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/chap_13_early/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/qu/Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex0711/src/qu/a1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/Ex0711/src/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/Ex0711/src/Ex01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +58,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/work/java_wokr"
+    "last_opened_file_path": "C:/work/java_wokr"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\java_wokr" />
       <recent name="D:\work\java_wokr\Ex071010\src" />
       <recent name="D:\work\java_wokr\Ex0710" />
     </key>
