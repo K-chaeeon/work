@@ -1,4 +1,4 @@
-package Exh0711;
+package Quiz.src.Exh0711;
 
 import java.util.Scanner;
 
@@ -41,25 +41,43 @@ public class Exh01 {
         System.out.println("값을 입력하세요.");
 
 
+        int num;                //구구단 결과 (i*j)
         int j = 1;
-        int num;
-        int i = scan.nextInt();
-
-        if(i>0&&i<10) {
+        int i = scan.nextInt();//곱하는 수(1~9)
+        while (j > 0 && j < 10) {
             num = i * j;
-            j++;
             System.out.println(i + "x" + j + "=" + num);
-//                if(j>10)
+            j++;
 
-                
-        }else{
-            System.out.println("올바른 값을 입력해주세요.");
-//            if(j<=9)
-//                break;
+
+            if (i==0&&i >= 10) {
+                System.out.println("올바른 값을 입력해주세요.");
+                break;
             }
+            scan = new Scanner(System.in);
+
+            continue;
         }
 
     }
+}
+
+
+//        if(i>0&&i<10) {
+//            num = i * j;
+//            j++;
+//            System.out.println(i + "x" + j + "=" + num);
+////                if(j>10)
+//
+//
+//        }else{
+//            System.out.println("올바른 값을 입력해주세요.");
+////            if(j<=9)
+////                break;
+//            }
+//        }
+//
+//    }
 
 
 
