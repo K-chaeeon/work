@@ -19,8 +19,8 @@ public class CalSecond {
     public int inputNumber() {
         System.out.println("초입력: ");
         Scanner scanner = new Scanner(System.in);
-        int resulte = scanner.nextInt();
-        return resulte;
+        int result = scanner.nextInt();
+        return result;
     }
 
     //int를 넘겨주면 String을 반환하는 함수

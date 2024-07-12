@@ -1,3 +1,5 @@
+package ex0705.src;
+
 public class Ex04 {
 
 

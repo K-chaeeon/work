@@ -1,3 +1,5 @@
+package ex0705.src;
+
 public class Ex03 {
 
     public static int doA() {

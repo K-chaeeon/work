@@ -1,3 +1,5 @@
+package ex0705.src;
+
 //alt enter 빠른에러처리
 public class Ex06 {
 

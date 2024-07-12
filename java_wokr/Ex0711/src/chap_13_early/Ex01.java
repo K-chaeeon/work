@@ -1,4 +1,4 @@
-package Ex0711.src.chap_13_early;
+package chap_13_early;
 
 public class Ex01 {
 
@@ -24,10 +24,9 @@ public class Ex01 {
 
 //int배열은 값을 넣지 않으면 0으로 초기화 됨
 
-
+        System.out.println();
         a[0] = 20;
         System.out.println(a[0]);
-        System.out.println();
         System.out.println(b[0]);
         System.out.println(b[1]);
         System.out.println(b[2]);

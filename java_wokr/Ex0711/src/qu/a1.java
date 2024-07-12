@@ -1,4 +1,4 @@
-package Ex0711.src.qu;
+package qu;
 
 /*
 1. 길이가 10인 배열을 선언하고 총 10개의 정수를 입력받아서,
@@ -19,13 +19,13 @@ public class a1 {
     public static void main(String[] args) {
 
         int[] a = new int[11];
-
+        int[]b = a;
 
         for (int i = 1; i < a.length; i++) {
 
-      //      System.out.println(i);
+            
                 if(i%2==0) {
-                //    System.out.println(i);
+                    System.out.println(i);
                 }
 
 

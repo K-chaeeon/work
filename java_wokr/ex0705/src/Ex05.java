@@ -1,3 +1,5 @@
+package ex0705.src;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 

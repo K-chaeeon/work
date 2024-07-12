@@ -1,4 +1,4 @@
-package Ex0711.src.qu;
+package qu;
 
 public class Q {
 

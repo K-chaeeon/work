@@ -1,4 +1,4 @@
-package aa.bb;
+package ex0708.src.aa.bb;
 
 public class cc {
 /**      ->doA()에 커서 올리면 여기 쓴 설명이 보임
