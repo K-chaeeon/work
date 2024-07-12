@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*박스사이징 쓸라면 이거 적고 해야함*/
+
+        div {
+            box-sizing: border-box;
+            /*패딩 추가해도 가로세로 전체크기 설정한대로 고정됨,더해지지않음*/
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            background-color: #c2a7a76e;
+            box-shadow: 20px 20px 5px 5px #382424;
+            animation: aa 2s infinite;
+            border-radius: 20px 30px 40px 50px;
+            /*꼭짓점 시계방향으로 모양 지정*/
+            margin: 50px;
+            /*flex justify */
+
+        }
+
+        /* div:hover{
+        box-shadow: 50px 50px 5px 5px #333;
+    } */
+
+        @keyframes aa {
+            0% {
+                box-shadow: 0px 0px 5px 5px #333;
+            }
+
+            25% {
+                box-shadow: 150px 150px 5px 5px #333;
+            }
+
+            50% {
+                box-shadow: 100px 100px 5px 5px #333;
+            }
+
+            100% {
+                box-shadow: 50px 50px 5px 5px #333;
+                transform: rotate(360deg)
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-package Ex0711.src.chap_13_early;
+package chap_13_early;
 
 public class Ex03 {
     public static void main(String[] args) {
