@@ -1,2 +1,6 @@
-package ex0714;public class Ex04 {
+package ex0714;
+
+import java.util.Scanner;
+
+public class Ex04 {
 }

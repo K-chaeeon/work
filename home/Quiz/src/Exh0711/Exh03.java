@@ -1,4 +1,4 @@
-package Quiz.src.Exh0711;
+package Exh0711;
 
 /*
 3. 1~100까지 모든 정수 더하기

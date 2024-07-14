@@ -4,7 +4,7 @@ package ex0714;
  */
 import java.util.Scanner;
 
-public class Ex04 {
+public class Ex03 {
     public static void main(String[] args) {
 
         Scanner scan1 = new Scanner(System.in);
