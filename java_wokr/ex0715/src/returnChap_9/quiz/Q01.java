@@ -16,31 +16,28 @@ package returnChap_9.quiz;
 //str의 길이를 구한다 = str.length
 //for (int i = 0; i < str.length; i++) str[i]=
 //str[
- import java.util.Scanner;
+
+import java.util.Scanner;
+import java.util.Arrays;
 public class Q01 {
 
     public static void main(String[] args) {
         System.out.print("값을 입력하세요: ");
 
-        Scanner scanner=new Scanner(System.in);
-        String str = scanner.next();
-        System.out.println(str.length());
+        Scanner scanner = new Scanner(System.in);
+        String a =scanner.nextLine();
 
+        String str[] = new String[a.length()];
+        System.out.println("입력값 = "+a);
+        while (true) {
+            for (int i = 0; i < a.length(); i++) {
 
-        for(int i = 0; i<str.length(); i++){
+                str[i] = String.valueOf(a.charAt(i));
+                System.out.println(str[i]);
 
-            String a[] = str[i];
-
-            System.out.println(a);
+            }
+            break;
         }
     }
 }
 
-/*
-String str[0]=안
-String str[1]=녕
-String str[2]=하
-String str[3]=십
-String str[4]=니
-String str[5]=까
- */

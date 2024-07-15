@@ -11,7 +11,9 @@ public class Ex05 {
 
         for (int i = 0; i < ar.length; i++) {
             System.out.println(ar[i]);
+
         }
+        System.out.println();
         Arrays.fill(ar, 0, 2, 10);
 
         for (int i = 0; i < ar.length; i++) {
