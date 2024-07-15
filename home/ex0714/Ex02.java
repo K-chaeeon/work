@@ -4,7 +4,7 @@ package ex0714;
 0을 입력하면 프로그램 종료
  */
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Ex02 {

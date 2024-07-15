@@ -11,30 +11,35 @@ package qu;
  */
 
 
-
+import java.util.Scanner;
 
 public class a1 {
 
 
     public static void main(String[] args) {
 
-        int[] a = new int[11];
-        int[]b = a;
+        int[] a;
+        a = new int[10];
+        Scanner scan = new Scanner(System.in);
+        System.out.print("정수를 입력하세요: ");
 
-        for (int i = 1; i < a.length; i++) {
-
-            
-                if(i%2==0) {
-                    System.out.println(i);
-                }
-
+        int i = 0;
+        while (i < a.length) {
+            i++;
+            int b = scan.nextInt();
+            a[i] = b;
 
 
         }
+        System.out.print(a[i] + " ");
+        System.out.println();
 
     }
 
+
 }
+
+
 
 
 
