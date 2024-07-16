@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: bisque;
+            position: relative;
+            /*이게 없으면 aa가 바텀 기준으로 붙음*/
+            height: 300px;
+        }
+
+        .aa {
+            position: absolute;
+            bottom: 0;
+            background-color: rgb(94, 255, 0);
+            z-index: 95;
+        }
+
+        .bb {
+            position: absolute;
+            background-color: aqua;
+            z-index: 99;
+            /*겹칠 때 수치가 더 높은 게 위로 올라오게 함*/
+        }
+
+        .cc {
+            /* /* position: absolute; */
+            background-color: blueviolet;
+            /* z-index: 89899;
+            bottom: 0;
+            right: 0; */
+            width: 300PX;
+            height: 200PX;
+            margin: 0 auto;             /*중간정렬*/
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="aa">
+            <h1>div</h1>
+        </div>
+        <div class="bb">
+            <h2>div</h2>
+        </div>
+        <div class="cc">
+            <h3>div</h3>
+        </div>
+    </div>
+</body>
+
+</html>
