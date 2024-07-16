@@ -1,0 +1,24 @@
+* {
+    margin: ();
+    padding: ();
+    box-sizing: border-box;
+}
+
+#contents{
+    background: url("images/aaa.jpg") no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+ h1{
+    color: aliceblue;
+    font-size: 90px;
+    text-shadow: 2px 3px 0 #333;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
