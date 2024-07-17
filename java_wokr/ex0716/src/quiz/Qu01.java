@@ -31,8 +31,11 @@ public class Qu01 {
 
                 System.out.println(str[i]);
 
-                if (str[i].equals('.')) ;
-                System.out.println(i);
+
+                if (str[i].equals('.')){
+                    System.out.println(str[i]);
+                }
+//                System.out.println(str[i].equals('.'));
 
 
             }

@@ -33,6 +33,7 @@ class TV{
         this.b = b;
 
     }
+
     public void show(){
         System.out.println(name+"에서 만든 "+a+"년형 "+b+"인치 TV");
 

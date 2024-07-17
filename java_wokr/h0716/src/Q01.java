@@ -25,8 +25,8 @@ public class Q01 {
 //        System.out.println(average);
     public static double average(int a, int b, int c) {
         int sum = a + b + c;
-        return;
-        sum / 3.0;
+
+        return sum / 3.0;
 
     }
 
