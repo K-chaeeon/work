@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ce67680-a47c-4aef-bc53-f7e6ad16e004" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/h0716.iml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/h0716.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0716/src/Q01.java" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0716/src/Q01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/h0717.iml" beforeDir="false" afterPath="$PROJECT_DIR$/home/h0717/h0717.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_wokr/h0717/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2jNEo3jEHFJ9QAkgUkvx7mHgyqI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/work"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\home" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ce67680-a47c-4aef-bc53-f7e6ad16e004" name="Changes" comment="" />
+      <created>1721219305558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721219305558</updated>
+    </task>
+    <servers />
+  </component>
+</project>
