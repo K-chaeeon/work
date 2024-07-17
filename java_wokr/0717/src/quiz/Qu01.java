@@ -30,13 +30,14 @@ public class Qu01 {
         System.out.print("수학점수: ");
         int math = sc.nextInt();
 
-        Student get = new Student();
-
-        get.getTotal(kor,eng,math);
-        get.getAverage(kor,eng,math);
 
 
         System.out.println("총합은 " + Student.getTotal(kor,eng,math) + "입니다.");
+
+
+
+
+
         System.out.println("평균은 " + Student.getAverage(kor,eng,math) + "입니다.");
 
 
