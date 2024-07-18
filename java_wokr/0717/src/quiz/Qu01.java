@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 public class Qu01 {
 
-    public static void main(String[] args) {
+    Qu01() {
 
         Scanner sc = new Scanner(System.in);
 
@@ -31,14 +31,17 @@ public class Qu01 {
         int math = sc.nextInt();
 
 
+        System.out.println("총합은 " + Student.getTotal(kor, eng, math) + "입니다.");
 
-        System.out.println("총합은 " + Student.getTotal(kor,eng,math) + "입니다.");
-
-
-
+        System.out.println("평균은 " + Student.getAverage(kor, eng, math) + "입니다.");
 
 
-        System.out.println("평균은 " + Student.getAverage(kor,eng,math) + "입니다.");
+    }
+
+    public static void main(String[] args) {
+
+        new Qu01();
+
 
 
     }
