@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8df0d0a-0c43-4647-b5e4-f8757adec035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../html01/0717/Ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/h0710/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../h0718/src/main/java/org/example/fews22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0718Maven/src/main/java/org/example/qu/Qu01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0718Maven/src/main/java/org/example/qu/Qu01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h0716/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../h0716/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +30,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/work/java_wokr",
+    "last_opened_file_path": "D:/work/java_wokr/h0717",
     "onboarding.tips.debug.path": "D:/work/java_wokr/h0717/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="h0717" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="h0717" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

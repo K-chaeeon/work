@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3036e5e-71c9-4147-87ce-ecaf8899ab69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Q01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/h0710/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../h0718/src/main/java/org/example/fews22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0718Maven/src/main/java/org/example/qu/Qu01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0718Maven/src/main/java/org/example/qu/Qu01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +34,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Q01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/work/java_wokr/h0716/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Q01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/work/java_wokr/h0716",
+    "onboarding.tips.debug.path": "D:/work/java_wokr/h0716/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Q01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q01" />
