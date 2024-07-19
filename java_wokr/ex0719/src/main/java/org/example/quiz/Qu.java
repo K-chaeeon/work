@@ -30,28 +30,20 @@ Car는 가솔린으로 동작하는 자동차를 표현한 것이고, HybridCar�
 
 public class Qu {
 
-    class Car {      //부모
-
+    public class Car {
         int gasolineGauge;
-        public Car (int car1){
-            this.gasolineGauge = car1;
-        }
+
+        int electronicGauge;
+        int waterGauge;
 
 
-        public Car() {
-
-        }
     }
 
-
-
-
-    class HybridCar extends Car{
-
+    class HybridCar extends Car {
         int electricGauge;
-        public HybridCar(int car2){
-            super();
-            this.electricGauge = car2;
+
+        public HybridCar(int hc) {
+
         }
 
         public HybridCar() {
@@ -59,41 +51,94 @@ public class Qu {
         }
     }
 
-
-
-
-    class HybridWaterCar extends HybridCar{
-
+    class HybridWaterCar extends HybridCar {
         int waterGauge;
-        public HybridWaterCar(int car3){
+
+        public HybridWaterCar(){}
+
+        public HybridWaterCar(int hc, int hwc) {
             super();
-
-            this.waterGauge = waterGauge;
-
+            super.gasolineGauge = gasolineGauge;
+            super.electricGauge = electronicGauge;
         }
 
+        public void showCurrentGauge(int hc, int hwc) {
 
-        public void showCurrentGauge(int car1, int car2, int car3){
+            System.out.println("잔여 가솔린 " + gasolineGauge);
+            System.out.println("잔여 전기량 " + electricGauge);
+            System.out.println("잔여 워터량 " + waterGauge);
 
-
-            System.out.println("잔여 가솔린 "+gasolineGauge);
-            System.out.println("잔여 전기량 "+electricGauge);
-            System.out.println("잔여 워터량 "+waterGauge);
         }
     }
 
     public void main(String[] args) {
 
-        Car car1 = new Car(100);
-        HybridCar car2 = new HybridCar(200);
-        HybridWaterCar car3 = new HybridWaterCar(300);
-
-        car3.showCurrentGauge();
-
-
+        HybridCar hybridCar = new HybridCar(200);
+        HybridWaterCar hybridWaterCar = new HybridWaterCar(456);
 
 
     }
 
 
 }
+
+//    class Car {      //부모
+//
+//        int gasolineGauge;
+//
+//        public Car(int car1) {
+//            this.gasolineGauge = car1;
+//        }
+//
+//
+//        public Car() {
+//
+//        }
+//    }
+//
+//
+//    class HybridCar extends Car {
+//
+//        int electricGauge;
+//
+//        public HybridCar(int car1) {
+//            this.electricGauge = car1;
+//        }
+//
+//        public HybridCar() {
+//
+//        }
+//    }
+//
+//
+//    class HybridWaterCar extends HybridCar {
+//
+//        int waterGauge;
+//
+//        public HybridWaterCar(int car1, int car2) {
+//            super(car1);
+//            this.waterGauge = car2;
+//
+//        }
+//
+//
+//        public void showCurrentGauge(int car1, int car2, int car3) {
+//
+//
+//            System.out.println("잔여 가솔린 " + gasolineGauge);
+//            System.out.println("잔여 전기량 " + electricGauge);
+//            System.out.println("잔여 워터량 " + waterGauge);
+//        }
+//    }
+//
+//    public void main(String[] args) {
+//
+//        HybridWaterCar car3 = new HybridWaterCar();
+//
+//        car3.showCurrentGauge();
+//
+//
+//    }
+
+
+
