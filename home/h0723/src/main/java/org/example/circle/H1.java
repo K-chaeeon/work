@@ -9,7 +9,8 @@ public class H1 {
         System.out.println(c.getArea());
         c.setRad(-3.3);
         System.out.println(c.getArea());
-        c.rad = -4.5;
+
+//        c.rad = -4.5;
         //setRad()를 통하지 않고
         // 이런식으로 직접접근해서
         // 논리적 오류가 생기는 것을 막기 위해 정보은닉 사용
