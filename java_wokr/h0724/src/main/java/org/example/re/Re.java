@@ -57,10 +57,11 @@ public class Re {
             int reservationNumber = scanner.nextInt();
             scanner.nextLine(); // Consume newline left-over
 
-            boolean found = false;
+            boolean found = false;        //
             for (int i = 0; i < index; i++) {
                 if (reservations[i].getReserNumber() == reserNumber) {
                     System.out.println("예약번호 " + reserNumber + "에 해당하는 정보: " + reservations[i].getName() + ", " + reservations[i].getPhoneNumber());
+                    //어레이투스트링으로 바꿔보기
                     found = true;
                     break;
                 }
