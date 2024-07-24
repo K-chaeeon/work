@@ -13,7 +13,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.projectlombok/lombok      //롬복 설정(Maven)
     compileOnly("org.projectlombok:lombok:1.18.34")
 
-    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java    //MYSQL 자바 연결
     implementation("mysql:mysql-connector-java:8.0.33")
 
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
