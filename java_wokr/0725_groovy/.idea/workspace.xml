@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcf7109a-f484-4d65-ba38-2770aae343e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../0725/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/src/main/java/org/example/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0725/src/main/java/org/example/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../h0724/src/main/java/org/here/Reser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/src/main/java/org/example/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rev/src/main/java/org/example/Reser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0724/src/main/java/org/example/Ex07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0724/src/main/java/org/example/Ex07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h0724/src/main/java/here/Hmm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h0724/src/main/java/here/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../h0724/src/main/java/org/here/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h0724/src/main/java/org/example/re/Reser.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="0725_groovy" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="0725_groovy" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="0725_groovy" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jibJfYltS8v5OJdYkZsZAwUCKn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ex01 (1).executor": "Run",
+    "Application.Ex01 (2).executor": "Run",
+    "Application.Ex01 (3).executor": "Run",
+    "Application.Ex01 (4).executor": "Run",
+    "Application.Ex01.executor": "Run",
+    "Application.Ex03.executor": "Run",
+    "Gradle.0725_groovy [:Ex01.main()].executor": "Run",
+    "Gradle.0725_groovy [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/work/java_wokr/0725_groovy/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ex03">
+    <configuration name="Ex01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex01" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex03" />
+      <module name="0725_groovy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex03" />
+        <item itemvalue="Application.Ex01 (4)" />
+        <item itemvalue="Application.Ex01" />
+        <item itemvalue="Application.Ex01 (3)" />
+        <item itemvalue="Application.Ex01 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcf7109a-f484-4d65-ba38-2770aae343e4" name="Changes" comment="" />
+      <created>1721872775900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721872775900</updated>
+    </task>
+    <servers />
+  </component>
+</project>
