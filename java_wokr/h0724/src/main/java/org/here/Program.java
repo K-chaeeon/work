@@ -26,6 +26,7 @@ package org.here;
     프로그램이 종료되지 않는 한 되돌아가서 계속 스캔
 
      */
+
 import java.util.Scanner;
 
 public class Program {
