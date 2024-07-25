@@ -16,7 +16,6 @@ package org.here;
     손님의 정보와 부여받은 대기 번호를 세트로 저장할 때 쓸 배열
     손님의 정보를 초기화할 인스턴스
     <조회>
-    입력한 대기 번호에 맞는 손님 정보를 리턴받아야 함
     정보를 조회할 때 입력할 대기 번호 변수
     (내가 입력하는 값이므로 위에 있는 대기번호를 저장할 변수와는 별개로 두기)
 
@@ -32,7 +31,7 @@ import java.util.Scanner;
 public class Program {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         Reser[] re = new Reser[10];      //Reser 객체 참조배열 생성 -> 손님정보 10개 담을 수 있음
 
@@ -43,15 +42,15 @@ public class Program {
             System.out.println("2.조회");
             System.out.println("3.종료");
             System.out.print("입력: ");
-            int input = scanner.nextInt();
+            int input = scan.nextInt();
 
             switch (input) {
                 case 1: //예약
-                    scanner.nextLine();
+                    scan.nextLine();
                     System.out.print("이름: ");
-                    String name = scanner.nextLine();
+                    String name = scan.nextLine();
                     System.out.print("전화번호: ");
-                    String phone = scanner.nextLine();
+                    String phone = scan.nextLine();
 
                     Reser reservation = new Reser(name, phone, wait);   // 인스턴스 생성, 참조변수 reservation에 할당
                     re[wait - 1] = reservation;                         //배열자리는 0부터 시작하므로 -1 해줘야 함
@@ -64,9 +63,9 @@ public class Program {
 
                 case 2: //예약조회
                     System.out.print("대기번호 입력: ");
-                    int search = scanner.nextInt();
+                    int search = scan.nextInt();
                     if (search > 0 && search <= 10 && re[search - 1] != null) {
-                        System.out.println(re[search - 1].toString());
+                        System.out.println(re[search - 1]);
                         System.out.println();
                     } else {
                         System.out.println("예약이 없습니다.");
@@ -77,7 +76,6 @@ public class Program {
                 case 3: //종료
                     System.out.println("프로그램을 종료합니다.");
                     return;
-                    //메소드 탈출~
 
                 default:
                     System.out.println("다시 입력하세요.");
