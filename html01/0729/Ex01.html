@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <h1 id="heading">자바스크립트</h1>
+    <p id="text">위 텍스트를 클릭해보세요.</p>
+
+    <script>
+        const heading = document.querySelector("#heading");  /*아이디가(#) "heading"인 것을 가져와서 h1의 heading에 할당*/
+        // const clickText = document.querySelector("#text");
+
+        heading.onclick = () => { /* 이름없는 함수 실행할 때. funtion(){}과 ()=>{} 같음*/
+            heading.style.color = "red"
+        }
+
+    </script>
+    
+</body>
+</html>

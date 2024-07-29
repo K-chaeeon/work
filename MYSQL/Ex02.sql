@@ -63,6 +63,7 @@ select bookname, publisher from Book;	/*원하는 칼럼 보기*/
 select * from madangdb.Orders;	/*원하는 칼럼 보기*/
 
 select bookname, publisher from Book
+
 where bookname like '%축구%'  		/*축구라는 단어가 들어가기만 하면 됨*/
 where bookname like '축구의 역사'		/*같은거가져옴*/
 where bookname like '축구%'		/*축구로 시작하는 거 */
