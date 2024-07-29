@@ -12,12 +12,18 @@
     <p id="text">위 텍스트를 클릭해보세요.</p>
 
     <script>
-        const heading = document.querySelector("#heading");  /*아이디가(#) "heading"인 것을 가져와서 h1의 heading에 할당*/
-        // const clickText = document.querySelector("#text");
+     let sign = prompt("당신의 별자리는 무엇입니까?");
 
-        heading.onclick = () => { /* 이름없는 함수 실행할 때. funtion(){}과 ()=>{} 같음*/
-            heading.style.color = "red"
-        }
+    if (sign.toLowerCase() === "게자리") {
+    alert("와! 저도 게자리예요!");
+    }
+
+// prompt 기능을 쓰는 방법은 다양합니다.
+    sign = window.prompt(); // 빈 대화 상자를 엽니다.
+    sign = prompt(); // 빈 대화 상자를 엽니다.
+    sign = window.prompt("님 지금 기분 좋아요?"); // 안내 문구 "님 지금 기분 좋아요?"가 보이는 창을 띄웁니다.
+    sign = window.prompt("님 지금 기분 좋아요?", "네."); // 안내 문구 "님 지금 기분 좋아요?"가 보이는 창을 띄우되 기본적으로 입력되어 있는 값은 "네."로 합니다.
+
 
     </script>
     
