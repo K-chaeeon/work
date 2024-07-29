@@ -60,10 +60,11 @@ INSERT INTO Orders VALUES (9, 2, 10, 7000, STR_TO_DATE('2024-07-09','%Y-%m-%d'))
 INSERT INTO Orders VALUES (10, 3, 8, 13000, STR_TO_DATE('2024-07-10','%Y-%m-%d'));
 
 select bookname, publisher from Book;	/*원하는 칼럼 보기*/
-select*from madangdb.Orders;	/*원하는 칼럼 보기*/
+select * from madangdb.Orders;	/*원하는 칼럼 보기*/
 
-where bookname like '%축구%';  	/*축구라는 단어가 들어가기만 하면 됨*/
-where bookname like '축구의 역사';		/*같은거가져옴*/
-where bookname like '축구%';		/*축구로 시작하는 거 */
+select bookname, publisher from Book
+where bookname like '%축구%'  		/*축구라는 단어가 들어가기만 하면 됨*/
+where bookname like '축구의 역사'		/*같은거가져옴*/
+where bookname like '축구%'		/*축구로 시작하는 거 */
 where bookname like '%축구';		/*~축구인 책 */
 
