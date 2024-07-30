@@ -55,3 +55,4 @@ describe student;
 select * from student;
 
 drop tables book; /*테이블 삭제*/
+

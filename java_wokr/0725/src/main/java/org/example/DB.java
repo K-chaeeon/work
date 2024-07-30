@@ -18,6 +18,8 @@ public class DB {
             PreparedStatement pstmt = conn.prepareStatement("INSERT INTO student values ('박길동',100, 100,98)");
 
         } catch (Exception e) {
+
+
             e.printStackTrace();
         }
 
