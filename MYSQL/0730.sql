@@ -183,10 +183,19 @@ from book, customer, orders;
 
 
 
--- 7) 박지성이 구매하지 않은 도서의 이름
--- select distinct bookname
--- from book, customer, orders
--- where name not in ('박지성');
+-- 7) 박지성이 구매하지 않은 도서의 이름 
+	-- join으로
+SELECT 
+    book.bookname
+FROM
+    book,customer,orders
+WHERE
+    customer.custid = orders.custid
+        AND book.bookid = orders.bookid
+        AND customer.name != '박지성';
+        -- customer.name<>'박지성'
+        -- customer.name not in ('박지성')
+	
 
 
 -- 8) 마당서점 도서의 총개수
@@ -206,25 +215,53 @@ from orders, book
 where book.bookid=orders.bookid and orders.orderdata between'2024-07-04'and'2024-07-07';
 
 -- 12) 성이 김씨인 고객의 이름과 주소
-select name, adderss
+select name, address
 from customer
 where name like '김%%';
 
 -- 13) 성이 김씨이고 이름이 아로 끝나는 고객의 이름과 주소
-select name, adderss
+select name, address
 from customer
 where name like '김%_' and name like '_%아';
 
 
 -- 14) 주문 금액의 총액과  평균금액
-
+select sum(saleprice) from orders;
+select avg(saleprice) from orders;
 
 
 -- 15) 고객의 이름과 고객별 구매액
+select name, sum(saleprice) as '누적 구매금액'
+from customer, orders
+where customer.custid=orders.custid
+group by name
+order by name;
 
 
 -- 16) 고객의 이름과 고객이 구매한 도서목록
+select name, bookname
+from customer, orders, book
+where customer.custid=orders.custid and book.bookid=orders.bookid;
 
+select C.name, B.bookname
+from customer C, book B, orders O
+where C.custid=O.custid and B.bookid=O.bookid
+order by name;
+
+-- 같음
+-- 주문자.아이디와 책.책아이디 안에 주문목록에 있는 주문자아이디와 책아이디가 있는 것
+select C.name, B.bookname
+from book B, customer C
+where (C.custid ,B.bookid) in (select custid, bookid from orders);	-- join
+
+select* from orders;
+select custid, bookid from orders;
+
+-- 다름.  조건없는 join과 같음
+-- (주문자.아이디 안에 있는 주문목록.아이디) + (북.북아이디 안에 있는 주문목록.북아이디)=각각 다 합해서 출력됨
+select C.name,B.bookname
+from customer C, book B
+where C.custid in (select custid from orders) and B.bookid in (select bookid from orders);
 
 
 	/*max*/
