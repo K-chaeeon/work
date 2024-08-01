@@ -119,6 +119,8 @@ foreign key (custid) references NewCustomer(custid) on delete CASCADE
 
 
 
+
+	-- DML(데이터조작어)
 		/*alter문*/
         
 	alter table NewBook add	isbn varchar(13);	-- 칼럼추가
