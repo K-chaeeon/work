@@ -20,10 +20,6 @@
                     <input type="text" id="username" name="username" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">전화번호</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
                     <label for="password">비밀번호</label>
                     <div class="password-wrapper">
                         <input type="password" id="password" name="password" required>
@@ -32,11 +28,13 @@
                     <span id="caps-warning" class="caps-warning">Caps Lock이 켜져있습니다.</span>
                 </div>
                 <div class="form-group">
-                    <input type="checkbox" id="auto-login">
-                    <label for="auto-login">자동 로그인</label>
+                    <label for="auto-login">
+                        <input type="checkbox" id="auto-login">
+                        자동 로그인
+                    </label>
                 </div>
                 <div class="form-group">
-                    <button type="submit">로그인</button>
+                    <button type="submit" class="centered-button">로그인</button>
                 </div>
                 <div class="form-links">
                     <a href="#">아이디 찾기</a>
@@ -67,7 +65,7 @@
                     <input type="text" id="order-number" name="order-number">
                 </div>
                 <div class="form-group">
-                    <button type="submit">주문내역 조회하기</button>
+                    <button type="submit" class="centered-button">주문내역 조회하기</button>
                 </div>
             </form>
         </div>
