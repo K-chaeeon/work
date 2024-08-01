@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            background: #f4f4f4;
+        }
+        
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background: #ddd;
+            border: 1px solid #ccc;
+            margin: 0 5px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .tab.active {
+            background: #333;
+            color: #fff;
+        }
+        
+        .tab-content {
+            display: none;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .login-box, .order-query-box {
+            position: relative;
+        }
+
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #333;
+            border: none;
+            border-bottom: 1px solid #333;
+            background: transparent;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #333;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .login-box .user-box input:focus ~ label,
+        .login-box .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+        
+        .caps-warning {
+            color: #f00;
+            display: none;
+        }
+        
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+        
+        .buttons, .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-buttons {
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .social-buttons button {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <div class="tab active" data-tab="login">로그인</div>
+            <div class="tab" data-tab="order-query">비회원 주문조회</div>
+        </div>
+        <div class="tab-content login-box login active">
+            <h2>Login</h2>
+            <div class="user-box">
+                <input type="text" id="login-id" required>
+                <label for="login-id">아이디</label>
+            </div>
+            <div class="user-box">
+                <input type="password" id="login-password" required>
+                <label for="login-password">비밀번호</label>
+                <span class="toggle-password">👁️</span>
+                <div class="caps-warning" id="caps-warning">Caps Lock이 켜져있습니다.</div>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="auto-login">
+                <label for="auto-login">자동 로그인</label>
+            </div>
+            <div class="buttons">
+                <button>아이디 찾기</button>
+                <button>비밀번호 찾기</button>
+                <button>회원가입</button>
+            </div>
+            <div class="social-buttons">
+                <button>카카오 로그인</button>
+                <button>네이버 로그인</button>
+                <button>Apple 로그인</button>
+                <button>구글 로그인</button>
+            </div>
+        </div>
+        <div class="tab-content order-query-box order-query">
+            <div class="input-group">
+                <label for="order-name">주문자 명</label>
+                <input type="text" id="order-name" placeholder="주문자 명을 입력하세요" required>
+            </div>
+            <div class="input-group">
+                <label for="order-phone">주문자 전화번호</label>
+                <input type="text" id="order-phone" placeholder="전화번호를 입력하세요" required>
+            </div>
+            <div class="input-group">
+                <label for="order-number">주문번호 (선택)</label>
+                <input type="text" id="order-number" placeholder="주문번호를 입력하세요">
+            </div>
+            <div class="buttons">
+                <button>주문내역 조회하기</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Remove active class from all tabs and contents
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked tab and corresponding content
+                const targetTab = this.getAttribute('data-tab');
+                document.querySelector(`.${targetTab}-box`).classList.add('active');
+                this.classList.add('active');
+            });
+        });
+
+        document.getElementById('login-password').addEventListener('keyup', function(event) {
+            const capsWarning = document.getElementById('caps-warning');
+            if (event.getModifierState && event.getModifierState('CapsLock')) {
+                capsWarning.style.display = 'block';
+            } else {
+                capsWarning.style.display = 'none';
+            }
+        });
+
+        document.querySelector('.toggle-password').addEventListener('click', function() {
+            const passwordInput = document.getElementById('login-password');
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.textContent = type === 'password' ? '👁️' : '🙈';
+        });
+    </script>
+</body>
+</html>
