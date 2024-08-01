@@ -131,7 +131,7 @@ describe newbook;	-- 테이블 속성 확인
 	alter table newbook drop isbn;	-- 칼럼삭제
     
     alter table newbook modify bookname varchar(20) not null;	-- 칼럼속성 수정하기. 그 칼럼에 있는 모든 속성 다 적어줘야함(수정 안 하는 것도)
-	alter table newbook add primary key (bookname, publisher);	-- 수정이 아니라 없는 속성을 추가할 땐 add
+	alter table newbook add primary key (bookname, isbn);		-- 수정이 아니라 없는 속성을 추가할 땐 add
 																-- 이미 운영중인 서비스는 alter 잘 안 쓴다..쓸라면 일이 굉장히 많아짐
 																-- publisher는 null허용이므로 기본키로 설정할 수 없음
     drop table newbook;
@@ -142,7 +142,9 @@ describe newbook;	-- 테이블 속성 확인
     
 -- ------------------------------------------------------------------------
     
-    
+    insert into newBook values(1, '축구의 역사', 'gsvfds', 243,'gfedsw');
+    insert into newBook values(2, '축구fds의 역사', 'gsvfsds', 24,'gfeddsw');
+
     
     update newbook set bookname='하하' where bookid='2';
     delete from newbook where bookid='1';
