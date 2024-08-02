@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="this.css" />
+
+</head>
+<body>
+    
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="title">비회원 주문조회</h2>
+                <div class="input-group">
+                  <input type="text" id="order-name" required />
+                  <label for="order-name">주문자 명</label>
+                </div>
+                <div class="input-group">
+                  <input type="tel" id="order-phone" required />
+                  <label for="order-phone">주문자 전화번호</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" id="order-number" required />
+                  <label for="order-number">주문번호</label>
+                </div>
+                <div class="buttons">
+                  <button>주문내역 조회하기</button>
+                </div>
+              </form>
+        </div>
+      
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+          <form action="#" class="form" id="form2">
+            <h2 class="form__title">로그인</h2>
+            <div class="input-group">
+                <input type="text" id="login-id" required />
+                <label for="login-id">아이디</label>
+              </div>
+              <div class="input-group">
+                <input type="password" id="login-password" required />
+                <label for="login-password">비밀번호</label>
+                <span class="toggle-password">👁️</span>
+                <div class="caps-warning" id="caps-warning">
+                  caps lock이 켜져있습니다.
+                </div>
+              </div>
+              <div class="checkbox-group">
+                <input type="checkbox" id="auto-login" />
+                <label for="auto-login">자동 로그인</label>
+              </div>
+  
+              <button class="btn">로그인</button>
+  
+              <div class="social-buttons">
+                <button>카카오 로그인</button>
+                <button>네이버 로그인</button>
+                <button>Apple 로그인</button>
+                <button>구글 로그인</button>
+              </div>
+
+              <a href="#" class="link-up">회원가입</a>
+              <a href="#" class="link">비밀번호 찾기</a>
+          </form>
+        </div>
+      
+        <!-- Overlay -->
+        <div class="container__overlay">
+          <div class="overlay">
+            <div class="overlay__panel overlay--left">
+              <button class="btn" id="signIn">로그인</button>
+            </div>
+            <div class="overlay__panel overlay--right">
+              <button class="btn" id="signUp">비회원 주문조회</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+<script>
+    const signInBtn = document.getElementById("signIn");
+const signUpBtn = document.getElementById("signUp");
+const fistForm = document.getElementById("form1");
+const secondForm = document.getElementById("form2");
+const container = document.querySelector(".container");
+
+signInBtn.addEventListener("click", () => {
+  container.classList.remove("right-panel-active");
+});
+
+signUpBtn.addEventListener("click", () => {
+  container.classList.add("right-panel-active");
+});
+
+fistForm.addEventListener("submit", (e) => e.preventDefault());
+secondForm.addEventListener("submit", (e) => e.preventDefault());
+
+
+        document.getElementById('login-password').addEventListener('keyup', function(event) {
+            const capsWarning = document.getElementById('caps-warning');
+            if (event.getModifierState && event.getModifierState('CapsLock')) {
+                capsWarning.style.display = 'block';
+            } else {
+                capsWarning.style.display = 'none';
+            }
+        });
+
+        document.querySelector('.toggle-password').addEventListener('click', function() {
+            const passwordInput = document.getElementById('login-password');
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.textContent = type === 'password' ? '👁️' : '🙈';
+        });
+</script>
+</html>

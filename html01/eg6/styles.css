@@ -162,6 +162,8 @@ body {
   text-transform: uppercase;
   transition: transform 80ms ease-in;
 }
+
+
 .link-up {
   background-color: var(--blue);
   border-radius: 20px;
@@ -176,6 +178,9 @@ body {
   transition: transform 80ms ease-in;
   margin-top: 1.5rem;
 }
+
+
+
 .form > .btn {
   margin-top: 1.5rem;
 }

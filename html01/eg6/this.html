@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="this.css">
-
-</head>
-<body>
-<div class="container-all">
+    <link rel="stylesheet" href="this.css" />
+  </head>
 
 
-    <div class="container-back">
+  <body>
 
+    <div class="container container-back">
+      <!--비회원 주문조회 작성-->
+      <div class="container_form container-order">
+            <form action="#" class="form" id="form1">
+              <h2 class="title">비회원 주문조회</h2>
+              <div class="input-group">
+                <input type="text" id="order-name" required />
+                <label for="order-name">주문자 명</label>
+              </div>
+              <div class="input-group">
+                <input type="tel" id="order-phone" required />
+                <label for="order-phone">주문자 전화번호</label>
+              </div>
+              <div class="input-group">
+                <input type="text" id="order-number" required />
+                <label for="order-number">주문번호</label>
+              </div>
+              <div class="buttons">
+                <button>주문내역 조회하기</button>
+              </div>
+            </form>
+        </div>
 
-<!--비회원 주문조회 작성-->
-    <div class="container-right-in">
-        <form action="#" class="form" id="form1">
-            <h2 class="r_title">비회원 주문조회</h2>
-                <input type="text" placeholder="주문자 이름" class="input" required autofocus />
-                <input type="text" placeholder="주문번호" class="input" required />
-                <input type="tel" placeholder="주문자 연락처" class="input">
-        <button class="btn">주문조회</button>
-    </form>
-    </div>
-<!--로그인 작성-->
-    <div class="container-left-in">
-        <form action="#" class="form" id="form2">
-            <h2 class="l_title">로그인</h2>
+        <!--로그인 작성-->
+        <div class="container_form container-signin">
+          <form action="#" class="form" id="form2">
+            <h2 class="title">로그인</h2>
             <div class="input-group">
-                <input type="text" id="login-id" required>
-                <label for="login-id">아이디</label>
+              <input type="text" id="login-id" required />
+              <label for="login-id">아이디</label>
             </div>
             <div class="input-group">
-                <input type="password" id="login-password" required>
-                <label for="login-password">비밀번호</label>
-                <span class="toggle-password">👁️</span>
-                <div class="caps-warning" id="caps-warning">caps lock이 켜져있습니다.</div>
+              <input type="password" id="login-password" required />
+              <label for="login-password">비밀번호</label>
+              <span class="toggle-password">👁️</span>
+              <div class="caps-warning" id="caps-warning">
+                caps lock이 켜져있습니다.
+              </div>
             </div>
             <div class="checkbox-group">
-                <input type="checkbox" id="auto-login">
-                <label for="auto-login">자동 로그인</label>
+              <input type="checkbox" id="auto-login" />
+              <label for="auto-login">자동 로그인</label>
             </div>
 
-                <button class="btn">로그인</button>
+            <button class="btn">로그인</button>
 
-                <div class="social-buttons">
-                    <button>카카오 로그인</button>
-                    <button>네이버 로그인</button>
-                    <button>Apple 로그인</button>
-                    <button>구글 로그인</button>
-                </div>
+            <div class="social-buttons">
+              <button>카카오 로그인</button>
+              <button>네이버 로그인</button>
+              <button>Apple 로그인</button>
+              <button>구글 로그인</button>
+            </div>
 
-                <!-- <form action="#">
+            <!-- <form action="#">
                     <select name="social-logIn" id="s_logIn">
                     <option value="select">소셜로그인</option>
                         <option value="kakao">카카오</option>
@@ -62,51 +73,91 @@
                         <option value="google">구글</option>
                     </select>
                   </form> -->
-                <a href="#" class="link-up">회원가입</a>
-                <a href="#" class="link">비밀번호 찾기</a>
-        </form>
-    </div>
-   <!--회원가입 작성-->     
-   <!--아이디-중복확인/비밀번호/비밀번호확인/이름/연락처/우편번호,주소,상세주소/이메일/(선택)생년월일-쿠폰때메-->
-   <!--가입약관동의/../마케팅정보 수신동의/-->
-   <div class="container-center-in">
-    <form action="#" class="form" id="form3">
-        <h2 class="r_title">회원가입</h2>
-            <input type="text" placeholder="아이디" class="input" required autofocus >   <!--중복확인 추가-->
-            <input type="password" placeholder="비밀번호" class="input" required />   <!--비밀번호 보기 버튼-->
-            <input type="password" placeholder="비밀번호 확인" class="input" required >
-            <input type="text" placeholder="이름" class="input" required >
-            <input type="tel" placeholder="연락처" class="input" required >
-            <input type="text" placeholder="이름" class="input" required >
+            <a href="#" class="link-up">회원가입</a>
+            <a href="#" class="link">비밀번호 찾기</a>
+          </form>
+        </div>
+        <!--회원가입 작성-->
+        <!--아이디-중복확인/비밀번호/비밀번호확인/이름/연락처/우편번호,주소,상세주소/이메일/(선택)생년월일-쿠폰때메-->
+        <!--가입약관동의/../마케팅정보 수신동의/-->
+        <div class="container_form container-signin">
+            <form action="#" class="form" id="form3">           
+                 <h2 class="c-title">회원가입</h2>
+            <input
+              type="text"
+              placeholder="아이디"
+              class="input"
+              required
+              autofocus
+            />
+            <!--중복확인 추가-->
+            <input
+              type="password"
+              placeholder="비밀번호"
+              class="input"
+              required
+            />
+            <!--비밀번호 보기 버튼-->
+            <input
+              type="password"
+              placeholder="비밀번호 확인"
+              class="input"
+              required
+            />
+            <input type="text" placeholder="이름" class="input" required />
+            <input type="tel" placeholder="연락처" class="input" required />
+            <input type="text" placeholder="이름" class="input" required />
 
             <input type="email" placeholder="이메일" />
 
-    <button class="btn">주문조회</button>
-    </form>
-</div>
+            <button class="btn">주문조회</button>
+            </form>
+        </div>
+    
 
-<!--회면전환 버튼-->
-    <div class="container-move">
-        <div class="button-left">
+
+      <!--회면전환 버튼-->
+      <div class="container-move">
+        <div class="overlay">
+          <div class="overlay-back button-left">
             <button class="btn" id="signIn">로그인</button>
-        </div>
-        <div class="button-left">
+          </div>
+          <div class="overlay-back button-left">
             <button class="btn" id="signUp">회원가입</button>
-        </div>
-        <div class="button-right">
+          </div>
+          <div class="overlay-back button-right">
             <button class="btn" id="orderView">비회원 주문조회</button>
-        </div>
-        <div class="button-right">
+          </div>
+          <div class="overlay-back button-right">
             <button class="btn" id="signUp">회원가입</button>
+          </div>
         </div>
+      </div>
     </div>
+  </body>
 
 
-</div>
+  <script>
+    const signInBtn = document.getElementById("signIn");
+const signUpBtn = document.getElementById("signUp");
+const orderViewBtn = document.getElementById("orderView");
+const fistForm = document.getElementById("form1");
+const secondForm = document.getElementById("form2");
+const thirdForm = document.getElementById("form3");
+const container = document.querySelector(".container");
 
-</div>
+signInBtn.addEventListener("click", () => {
+  container.classList.remove("container-back");
+});
+
+signUpBtn.addEventListener("click", () => {
+  container.classList.add("container-back");
+});
+
+fistForm.addEventListener("submit", (e) => e.preventDefault());
+secondForm.addEventListener("submit", (e) => e.preventDefault());
+</script>
 
 
 
-</body>
 </html>
