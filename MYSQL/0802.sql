@@ -29,7 +29,6 @@ from orders O, customer C;
 
 
 -- 3번 고객이 주문한 도서의 최고 금액보다 더 비싼 도서를 구입한 주문의 주문번호와 판매금액
-
 select orderid, saleprice
 from orders
 where saleprice>(select max(saleprice)
@@ -44,6 +43,18 @@ from (select custid, name
 		where custid <= 2) cs, orders od 
 where cs.custid=od.custid
 group by cs.name;
+
+
+
+	/*인덱스*/
+		-- 값이 중복되지 않도록 걸기(쓸데없이 많이 걸면 속도 느려짐)
+        -- unique 제약조건 달 수 있음-> 값이 중복되지 않게 인덱스 생성됨
+        
+-- 생성
+create index ix_Book on Book(bookname);		-- create index 인덱스이름 on 테이블이름(칼럼);
+		 drop index ix_Book on Book;		-- drop index 인덱스이름;
+         
+         
 
 
 
