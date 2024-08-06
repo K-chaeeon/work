@@ -97,60 +97,60 @@ create database madanguniv;
 
 
 create table professor(			-- 마스터테이블
-ssn varchar(20) not null primary key,
-name varchar(20) not null,
-age varchar(6) not null,
-rank_n varchar(30) null,
-speciality varchar(60) null
+p_ssn varchar(20) not null primary key,
+p_name varchar(20) not null,
+p_age varchar(6) not null,
+p_rank varchar(30) null,
+p_speciality varchar(60) null
 );
 
 
 create table department(
 dno int not null primary key,
-dname varchar(40) not null,
+d_name varchar(40) not null,
 run varchar(20) not null,				
-office varchar(40) null,
-foreign key(run) references professor(ssn)
+d_office varchar(40) null,
+foreign key(run) references professor(p_ssn)
 );
 
 -- 다대다 관계인 테이블은 중간에 맵핑테이블(=릴레이션테이블)이 있어야 함
 create table work_dept(
 ssn varchar(20) not null,
 dno int not null,
-pec_time int not null default(0),
+pet_time int null,
 primary key(ssn, dno),
-foreign key(ssn) references professor(ssn),
+foreign key(ssn) references professor(p_ssn),
 foreign key(dno) references department(dno)
 );
 
 create table graduate(
-ssn varchar(20) not null primary key,
-name varchar(20) not null,
+g_ssn varchar(20) not null primary key,
+g_name varchar(20) not null,
 dno int not null,
-age varchar(6) not null,
+g_age varchar(6) not null,
 deg_prog char(12) not null,
 advisor varchar(20) null,		-- 참조하는 칼럼(ssn)과 타입이 같아야함 
 foreign key(dno) references department(dno), 	
-foreign key(advisor) references graduate(ssn) -- 같은 테이블끼리 참조함. 학생조언자가 없을 수 있으므로 null
+foreign key(advisor) references graduate(g_ssn) -- 같은 테이블끼리 참조함. 학생조언자가 없을 수 있으므로 null
 );
 
 create table project(
-pid integer auto_increment primary key,
+pid integer not null auto_increment primary key,
 manage varchar(20) not null,	
 sponsor varchar(80) null,
 start_date date not null,
 end_date date not null,
 budget varchar(50) null, 
-foreign key(manager) references professor(ssn)
+foreign key(manage) references professor(p_ssn)
 
 );
 
 create table work_in(
-pid integer not null,
-ssn varchar(20) not null,
-primary key(pid, ssn),
+pid varchar(20) null,
+p_ssn varchar(20) not null,
+primary key(pid, p_ssn),
 foreign key(pid) references project(pid),
-foreign key(ssn) references professor(ssn)
+foreign key(ssn) references professor(p_ssn)
 );
 
 create table work_prog(
@@ -158,7 +158,7 @@ pid integer not null,
 ssn varchar(20) not null,
 primary key(pid, ssn),
 foreign key(pid) references project(pid),
-foreign key(ssn) references graduate(ssn)
+foreign key(ssn) references graduate(g_ssn)
 );
 
 
