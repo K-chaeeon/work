@@ -126,3 +126,14 @@ select * from book_log
 where bookid_l='14';
 
 
+
+
+		/*저장프로그램문법*/ -- p.300
+        
+        
+        
+        
+        
+
+
+

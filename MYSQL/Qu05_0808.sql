@@ -55,9 +55,31 @@ A가게 누적3개 / B가게 누적 5개
 
 
 
+create table corner(
+	corner_id varchar(6) primary key,
+    corner_name varchar(20) not null
+    );
+    
+create table menu(
+	menu_id varchar(6) primary key,
+    menu_name varchar(20) not null,
+    price integer not null,
+    corner_id varchar(6),
+    foreign key (corner_id) references corner(corner_id)
+    );
+    
+create table orders(
+	order_id varchar(6) not null,
+    menu_id varchar(6) not null,
+    cnt integer not null,
+    order_date date not null,
+    status char(1) null,	-- 접수중, 픽업대기, 픽업완료
+    foreign key (menu_id) references menu(menu_id),
+    saleprice integer,
+    primary key(order_id, menu_id, order_date)
+);
 
 
-			
 
 
 
