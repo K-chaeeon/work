@@ -33,7 +33,8 @@ where e.employees.job_id = j.job_id;*/
 
 -- 3 직무가 영업 대표(sales representative) 또는 재고 사원(stock clerk)인 모든 직원의 
 -- 성(last name), 직무(job), 급여(salary)를 출력하며, 급여가 $2,500, $3,500 또는 $7,000가 아닌 직원들을 포함하세요.
-select last_name, salary from employees
+select last_name, salary 
+from employees
 where salary>=12000;
 desc employees;
 
